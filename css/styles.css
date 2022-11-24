@@ -312,6 +312,7 @@ ul {
 
 .container.sec-works {
   background-color: teal;
+  padding-bottom: 94px;
 }
 
 .button-list {
@@ -344,12 +345,12 @@ ul {
 
 .gallery-list {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   list-style: none;
 }
 
 .gallery-list .item {
-  width: calc((100% - 60px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
   outline: 2px solid tomato;
