@@ -5,11 +5,6 @@
   --primary-white-color: #FFFFFF;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
 body {
   background-color: var(--primary-white-color);
@@ -32,6 +27,10 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 img {
@@ -153,6 +152,12 @@ img {
   background-color: #2f303a;
 }
 
+.container.sec-hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+
 .hero-title {
   color: #ffffff;
   font-weight: 900;
@@ -162,6 +167,8 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
+
+  margin-bottom: 30px;
 }
 
 .button.primary {
@@ -173,7 +180,10 @@ img {
   line-height: 1.88;
   letter-spacing: 0.06em;
 
-  cursor: pointer;
+  width: 216px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .sec1 {
@@ -183,6 +193,7 @@ img {
 .feature-list {
   display: flex;
   list-style: none;
+
 }
 
 .feature-list .feature-name:not(:last-child) {
@@ -195,6 +206,8 @@ img {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+
+  margin-bottom: 10px;
 }
 
 .feature-list p {
@@ -347,6 +360,7 @@ img {
 
 .container.sec-works {
   background-color: #FFFFFF;
+  padding-top: 94px;
    padding-bottom: 94px;
 }
 
@@ -354,6 +368,8 @@ img {
   display: flex;
   list-style: none;
   justify-content: center;
+
+ margin-bottom: 34px;
 }
 
 .button-menu:not(:last-child) {
@@ -371,7 +387,10 @@ img {
   line-height: 1.62;
   text-align: center;
 
-  cursor: pointer;
+  width: 125px;
+  height: 38px;
+  border-radius: 4px;
+  border: 2px solid transparent
 }
 
 .button-function:hover,
