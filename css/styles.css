@@ -261,9 +261,7 @@ img {
 .section-team-list .person {
   width: 270px;
 
-  background: #ffffff;
-  /* material shadow v1 */
-
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -294,8 +292,6 @@ img {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-
-  
 }
 
 /* end of main. */
@@ -410,7 +406,6 @@ img {
   flex-basis: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  /* outline: 2px solid tomato; */
 }
 
 .gallery-list .item:nth-child(3n) {
